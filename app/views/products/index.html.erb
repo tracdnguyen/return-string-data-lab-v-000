@@ -1,6 +1,6 @@
 <h1>
-  <% @products.each do |product| %>: 
+  <% @products.each do |product| %>:
     <%= product.title %>
+    <div><%= truncate product.description %></div>
   <% end %>
 </h1>
-<div><%= truncate post.description %></div>
